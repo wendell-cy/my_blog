@@ -23,3 +23,6 @@ EOF
 wait
 exec 9>&- 
 rm -rf $tmp_fifofile
+
+
+echo hello
