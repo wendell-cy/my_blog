@@ -25,7 +25,7 @@ SECRET_KEY = '_&-28&y3ao-!8ds2(a36y##je=#9s_9k1er5w@ao63ieadg54x'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -38,7 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'article',
+    'article.apps.ArticleConfig',
 ]
 
 #from django.conf import global_settings
